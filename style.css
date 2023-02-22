@@ -2,7 +2,9 @@
 padding:0;
 margin:0;
 box-sizing:border-box;
+font-family: 'Inter';font-size: 22px;
 }
+
 
 body{ 
     background-color: #48464b;
@@ -22,4 +24,24 @@ li{
     padding: .5rem;
     list-style: none;
 }
+   .image{ 
+    height:41rem;
+    width:100%;
     
+   } 
+   img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   section{
+    padding: 1rem;
+    margin: 1rem;
+   }
+   h1{
+    margin-bottom: 2rem;
+     }
+   p{
+    width:85%;
+    
+}
